@@ -21,7 +21,8 @@ public:
 		for(int i=0;i<V;i++)
 		{
 			cout<<"Vertex "<<i<<"->";
-			for(int x:l[i]){
+			for(int x:l[i])
+			{
 				cout<<x<<", ";
 			}
 			cout<<endl;
